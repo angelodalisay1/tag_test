@@ -16,6 +16,18 @@ TAGGER is a way to auto tag GIT versions when a Pull Request occurs or code is m
 <!-- GETTING STARTED -->
 ## How to install
 <p>
-Navigate to `.git/hooks/post-commit`<br/>
+Navigate to 
+
+```
+.git/hooks/post-commit
+```
+
+<br/>
 If the file does not exist create one <br/>
-Inside the file add `./tag_version.sh`</p>
+Inside the file add 
+
+```
+./tag_version.sh
+```` 
+Save and Close
+</p>
